@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="register.css" />
+    <title>register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+       <a href="project.html"> << back</a>
+      </div>
+      <form action="" id="form">
+        
+        <h1>Registration</h1>
+
+        <div class="group">
+          <input class="info" type="text" placeholder="enter name" name="name" id="name"/>
+          <i class="fa-solid fa-user"></i>
+          <div class="error success"></div>
+        </div>
+
+        <div class="group">
+          <input class="info" type="email" id="mail" placeholder="enter email" name="rmail"/>
+          <i class="fa-solid fa-envelope"></i>
+          <div class="error success"></div>
+        </div>
+
+        <div class="group">
+          <input class="info" type="password" id="pass" placeholder="enter password" name="rpass" />
+          <i class="fa-solid fa-lock"></i>
+          <div class="error success"></div>
+        </div>
+
+        <div class="group">
+          <input class="info" type="text" id="user" placeholder="username" name="user" />
+          <i class="fa-solid fa-user"></i>
+          <div class="error success"></div>
+        </div>
+
+        <div class="group">
+          <input  class="info" type="number" id="mob" placeholder="mobile number" name="mobile" />
+          <i class="fa-solid fa-phone"></i>
+          <div class="error success"></div>
+        </div>
+
+        <a href="project.html"><input type="submit" value="submit" id="btn" name="btn" /></a>
+      </form>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>
