@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  /*  background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;*/
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    border-right: 2px solid white ;
+  }
+  
+  .profile{
+    background-color:#3aafa9;
+    width:290px;
+    height: 100px;
+    margin-left: -20px;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile h3 {
+    margin: 0;
+    padding-left:10px;
+    font-weight:900;
+    font-family: arial;
+    font-size: 25px;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options li {
+    margin-bottom: 10px;
+  }
+  
+  .options li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .options .group:hover {
+    background-color: #555;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .group{
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+  }
+#heading{
+  position: absolute;
+  left: 50%;
+  color: #feffff;
+}
+.main{
+  width: 100vw;
+  height: 50vh;
+  background-color: #3aafa9;
+}
+.main2{
+  width: 100vw;
+  height: 50vh;
+}
+#para{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  height: 10vh;
+  width: 35vw;
+  color: #feffff;
+  font-size: 20px;
+}
+.main img{
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 350px;
+}
+#feedback
+{
+
+    height: 330px;
+    width: 250px;
+    background-color: white;
+    border:2px  solid white;
+    margin-left: 200px;
+    box-shadow: 0 0 10 0 gray;
+    margin-left: 400px;
+}
+#invertcoma
+{
+    color:rgb(236, 154, 0);
+    text-align: center;
+    font-size:35px;
+}
+#para3
+{
+    text-align:center; 
+    color:rgba(0, 0, 0, 0.349);   
+}
+#circle
+{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    background-image:url("modi.jpg");
+    background-size: cover;
+    display: block;
+    background-position: center;
+}
+#modi
+{
+    font-weight: bolder;
+    margin-left:70px ;
+    text-transform: capitalize;
+}
+#circle2
+{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    background-image:url("mahi.jpg");
+    background-size: cover;
+    background-position:center;
+}
+#mahi
+{
+    font-weight: bolder;
+    margin-left:70px ;
+    text-transform: capitalize;
+}
+#invercoma2
+{
+    color:rgb(236, 154, 0);
+    text-align: center;
+    font-size:35px;
+}
+#para4
+{
+    text-align:center; 
+    color:rgba(0, 0, 0, 0.349);   
+}
+#feedback2
+{
+    height: 330px;
+    width: 250px;
+    background-color: white;
+    border:2px  solid white;
+    margin-left: 200px;
+    box-shadow: 0 0 10 0 gray;
+    margin-left: 1000px;
+    margin-top: -335px;
+    display:block;
+}
+#para2{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  height: 10vh;
+  width: 35vw;
+  color:#feffff;
+  font-size: 20px;
+}
+
+
+
+
+
