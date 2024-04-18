@@ -23,7 +23,7 @@
       <ul class="options">
         <div class="group">
           <i class="fa-solid fa-user"></i>
-          <li><a href="#">Profile</a></li>
+          <li><a href="profile.html">Profile</a></li>
         </div>
 
         <div class="group" id="Categories">
@@ -35,9 +35,9 @@
           <i class="fa-solid fa-pen"></i>
           <li><a href="#">Write Blog</a></li>
         </div>
-        <div class="group">
-          <i class="fa-solid fa-gears"></i>
-          <li><a href="#">Settings</a></li>
+        <div class="group" id="log">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <li><a href="project.html">Log out</a></li>
         </div>
       </ul>
     </div>
@@ -65,7 +65,7 @@
       <div id="feedback2">
         <h1 id="invercoma2">"</h1>
         <p id="para4">
-          blogadda is personaly my website favourite to Read blog with greate user-interface 
+          blogadda is personaly my website favourite to Read blog with great user-interface 
         </p>
         <br /><br /><br />
         <div id="circle2"></div>
@@ -73,5 +73,15 @@
         <span id="mahi"> ms dhoni </span>
       </div>
     </div>
+    <script>
+      const log=document.querySelector("#log");
+      log.addEventListener("click",()=>{
+        let msg = confirm("are you sure?")
+        if(msg==true){
+        window.location.href="project.html";
+        }
+      })
+    </script>
   </body>
+  
 </html>
